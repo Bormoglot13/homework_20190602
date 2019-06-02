@@ -1,3 +1,6 @@
-2019-06-02 21:54:24.654 ERROR ff AuthException
-2019-06-02 21:54:59.261 INFO vova1
-2019-06-02 21:55:06.373 ERROR stop AuthException
+2019-06-02 23:19:14.113 ERROR login: "ffff" AuthException
+2019-06-02 23:19:23.261 ERROR login: "auth" AuthException
+2019-06-02 23:19:37.541 INFO login: "vova1" logging on
+2019-06-02 23:19:47.976 INFO login: "lipa" logging on
+2019-06-02 23:19:59.992 INFO login: "vova1" logging on
+2019-06-02 23:20:04.82 ERROR login: "stop" AuthException

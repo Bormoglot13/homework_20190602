@@ -46,12 +46,12 @@ public class AtmStorage {
 
                 try {
                     consoleAuth.login(login,pass);
-                    Logger.log(login, "INFO");
+                    Logger.log("login: \""+login +"\" logging on" , "INFO");
                     // делаем какие-то операции  со счетом
                 } catch (AuthException e) {
-                    Logger.log(login + " AuthException" , "ERROR");
+                    Logger.log("login: \""+login + "\" AuthException" , "ERROR");
                 } catch (MissingAccountException e) {
-                    Logger.log(login+ " MissingAccountException" , "ERROR");
+                    Logger.log("login: \""+login + "\" MissingAccountException" , "ERROR");
                 }
             }
         } finally {
